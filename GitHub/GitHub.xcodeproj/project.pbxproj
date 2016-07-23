@@ -10,11 +10,11 @@
 		E92FCECE1D435FCF0040ED4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92FCECD1D435FCF0040ED4D /* main.m */; };
 		E92FCED11D435FCF0040ED4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E92FCED01D435FCF0040ED4D /* AppDelegate.m */; };
 		E92FCED41D435FCF0040ED4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92FCED31D435FCF0040ED4D /* ViewController.m */; };
-		E92FCED71D435FCF0040ED4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92FCED51D435FCF0040ED4D /* Main.storyboard */; };
 		E92FCED91D435FCF0040ED4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92FCED81D435FCF0040ED4D /* Assets.xcassets */; };
 		E92FCEDC1D435FCF0040ED4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92FCEDA1D435FCF0040ED4D /* LaunchScreen.storyboard */; };
 		E92FCEE71D435FCF0040ED4D /* GitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E92FCEE61D435FCF0040ED4D /* GitHubTests.m */; };
 		E92FCEF21D435FCF0040ED4D /* GitHubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E92FCEF11D435FCF0040ED4D /* GitHubUITests.m */; };
+		E92FCF011D4363240040ED4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92FCEFF1D4363240040ED4D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		E92FCED01D435FCF0040ED4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E92FCED21D435FCF0040ED4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E92FCED31D435FCF0040ED4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E92FCED61D435FCF0040ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E92FCED81D435FCF0040ED4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92FCEDB1D435FCF0040ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E92FCEDD1D435FCF0040ED4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		E92FCEED1D435FCF0040ED4D /* GitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92FCEF11D435FCF0040ED4D /* GitHubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubUITests.m; sourceTree = "<group>"; };
 		E92FCEF31D435FCF0040ED4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92FCF001D4363240040ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 				E92FCED01D435FCF0040ED4D /* AppDelegate.m */,
 				E92FCED21D435FCF0040ED4D /* ViewController.h */,
 				E92FCED31D435FCF0040ED4D /* ViewController.m */,
-				E92FCED51D435FCF0040ED4D /* Main.storyboard */,
 				E92FCED81D435FCF0040ED4D /* Assets.xcassets */,
+				E92FCEFF1D4363240040ED4D /* Main.storyboard */,
 				E92FCEDA1D435FCF0040ED4D /* LaunchScreen.storyboard */,
 				E92FCEDD1D435FCF0040ED4D /* Info.plist */,
 				E92FCECC1D435FCE0040ED4D /* Supporting Files */,
@@ -243,9 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92FCF011D4363240040ED4D /* Main.storyboard in Resources */,
 				E92FCEDC1D435FCF0040ED4D /* LaunchScreen.storyboard in Resources */,
 				E92FCED91D435FCF0040ED4D /* Assets.xcassets in Resources */,
-				E92FCED71D435FCF0040ED4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +308,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E92FCED51D435FCF0040ED4D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E92FCED61D435FCF0040ED4D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E92FCEDA1D435FCF0040ED4D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E92FCEDB1D435FCF0040ED4D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E92FCEFF1D4363240040ED4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92FCF001D4363240040ED4D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -498,6 +498,7 @@
 				E92FCEF81D435FCF0040ED4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E92FCEF91D435FCF0040ED4D /* Build configuration list for PBXNativeTarget "GitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				E92FCEFB1D435FCF0040ED4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E92FCEFC1D435FCF0040ED4D /* Build configuration list for PBXNativeTarget "GitHubUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +516,7 @@
 				E92FCEFE1D435FCF0040ED4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
